@@ -1,5 +1,8 @@
 package main
+import (
+	"dsa/array"
+)
 
 func main() {
-	println("Hello, World!")
+	array.Array()
 }
