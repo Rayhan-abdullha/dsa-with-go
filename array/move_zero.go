@@ -41,3 +41,15 @@ func MoveZeroes1(nums []int) {
 		writePos++
 	}
 }
+
+func MoveZeroes2(nums []int) {
+	writePos := 0 // next slot for a non-zero
+	for readPos := 0; readPos < len(nums); readPos++ {
+		if nums[readPos] != 0 {
+			if readPos != writePos {
+				nums[readPos], nums[writePos] = nums[writePos], nums[readPos]
+			}
+			writePos++
+		}
+	}
+}
