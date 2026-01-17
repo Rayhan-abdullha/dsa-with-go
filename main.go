@@ -1,8 +1,11 @@
 package main
+
 import (
-	"dsa/array"
+	// "dsa/array"
+	"dsa/stack"
 )
 
 func main() {
-	array.Array()
+	// array.Array()
+	stack.Stack()
 }
