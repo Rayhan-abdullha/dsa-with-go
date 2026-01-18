@@ -1,5 +1,7 @@
 package stack
 
 func Stack() {
-	Valid()
+	// Valid()
+	// MinSolution()
+	Duplicate()
 }
