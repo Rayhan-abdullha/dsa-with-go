@@ -4,4 +4,5 @@ func Stack() {
 	// Valid()
 	// MinSolution()
 	// Duplicate()
+	RemoveDuplicateLetter()
 }
