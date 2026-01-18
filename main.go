@@ -1,9 +1,9 @@
 package main
 
-import (
-	// "dsa/array"
-	"dsa/stack"
-)
+import "dsa/stack"
+
+// "dsa/array"
+// "dsa/stack"
 
 func main() {
 	// array.Array()
